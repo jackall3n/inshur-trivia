@@ -1,0 +1,33 @@
+.Position {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.Position[data-position="1"] .picture {
+  width: 115px !important;
+  height: 115px !important;
+  margin-left: -0.75rem;
+  margin-right: -0.75rem;
+  position: relative;
+  z-index: 10;
+}
+
+.picture  {
+  border: 3px solid white;
+  box-shadow: 0 5px 15px 5px #0000002e;
+  width: 80px !important;
+  height: 80px !important;
+  margin: 0.5rem 0 1rem;
+}
+
+.position {
+  font-size: 1.25rem;
+  color: #9f9f9f;
+}
+
+.Position[data-position="1"] .position {
+  font-size: 1.625rem;
+  color: black;
+}

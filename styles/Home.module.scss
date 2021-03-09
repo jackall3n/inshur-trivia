@@ -5,6 +5,20 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  button {
+    color: white;
+    background-color: #191e31;
+    border: 0;
+    border-radius: 100px;
+    padding: 0.5rem 1rem;
+    outline: none;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+  }
 }
 
 .main {
@@ -68,7 +82,7 @@
   padding: 0.75rem;
   font-size: 1.1rem;
   font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+  Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
 .grid {
@@ -118,5 +132,25 @@
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+}
+
+.header {
+  display: grid;
+  grid-template-rows: 60px auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 2rem;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #191e31;
+  font-size: 20px;
+  font-weight: 800;
+  font-style: italic;
+  letter-spacing: 1px;
+  text-align: right;
+
+  img {
+    object-fit: contain;
   }
 }
